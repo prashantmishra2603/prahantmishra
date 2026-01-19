@@ -1,0 +1,80 @@
+{
+  "personal": {
+    "name": "Prashant Mishra",
+    "title": "MERN Web Developer",
+    "email": "prashantmishra2603@gmail.com",
+    "phone": "+91-XXXXXXXXXX",
+    "location": "Gorakhpur, Uttar Pradesh, India",
+    "github": "https://github.com/prashantmishra2603",
+    "linkedin": "https://linkedin.com/in/prashantmishra2603",
+    "portfolio": "#",
+    "summary": "Passionate MERN Stack Developer with expertise in building clean, scalable web applications. Experienced in developing full-stack solutions using MongoDB, Express.js, React, and Node.js. Strong foundation in computer science with hands-on experience in Java and Python. Committed to writing efficient, maintainable code and delivering exceptional user experiences."
+  },
+  "experience": {
+    "years": 2,
+    "projectsCompleted": 15,
+    "technologiesUsed": 20,
+    "happyClients": 10
+  },
+  "skills": {
+    "frontend": ["React.js", "HTML5", "CSS3", "JavaScript (ES6+)", "Tailwind CSS", "Bootstrap", "Redux"],
+    "backend": ["Node.js", "Express.js", "REST APIs", "JWT Authentication"],
+    "database": ["MongoDB", "MySQL", "Firebase"],
+    "languages": ["JavaScript", "Java", "Python", "C/C++"],
+    "tools": ["Git", "GitHub", "VS Code", "Postman", "npm", "Webpack"],
+    "other": ["Data Structures", "Algorithms", "OOP", "Agile/Scrum"]
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Technology (B.Tech)",
+      "field": "Computer Science and Engineering",
+      "institution": "Your University Name",
+      "location": "Gorakhpur, India",
+      "year": "2020 - 2024",
+      "grade": "8.5 CGPA"
+    },
+    {
+      "degree": "Intermediate (12th)",
+      "field": "Science (PCM)",
+      "institution": "Your School Name",
+      "location": "Gorakhpur, India",
+      "year": "2018 - 2020",
+      "grade": "85%"
+    },
+    {
+      "degree": "High School (10th)",
+      "field": "General",
+      "institution": "Your School Name",
+      "location": "Gorakhpur, India",
+      "year": "2018",
+      "grade": "90%"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Full Stack Web Development",
+      "issuer": "Coursera / Udemy",
+      "year": "2023",
+      "link": "#"
+    },
+    {
+      "name": "React - The Complete Guide",
+      "issuer": "Udemy",
+      "year": "2023",
+      "link": "#"
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "issuer": "GeeksforGeeks",
+      "year": "2022",
+      "link": "#"
+    },
+    {
+      "name": "MongoDB Developer Certification",
+      "issuer": "MongoDB University",
+      "year": "2023",
+      "link": "#"
+    }
+  ],
+  "languages": ["English (Professional)", "Hindi (Native)"]
+}
