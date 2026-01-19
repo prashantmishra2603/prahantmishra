@@ -4,6 +4,7 @@ import { SectionHeading } from '@/components/ui/SectionHeading';
 import { TimelineItem } from '@/components/ui/TimelineItem';
 import { SkillBadge } from '@/components/ui/SkillBadge';
 import resumeData from '@/data/resume.json';
+import profilePic from '@/assets/profile.jpg';
 
 export default function About() {
   const { personal, skills, education, certifications } = resumeData;
@@ -14,21 +15,24 @@ export default function About() {
       <section className="section-container mb-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image placeholder */}
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-            className="relative"
-          >
-            <div className="aspect-square max-w-md mx-auto rounded-2xl bg-gradient-to-br from-primary/20 to-accent/10 flex items-center justify-center overflow-hidden">
-              <div className="w-32 h-32 rounded-full bg-primary/20 flex items-center justify-center">
-                <span className="text-6xl font-bold text-primary">PM</span>
-              </div>
-            </div>
-            {/* Decorative elements */}
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/20 rounded-xl -z-10" />
-            <div className="absolute -top-4 -left-4 w-16 h-16 bg-primary/20 rounded-xl -z-10" />
-          </motion.div>
+          {/* Profile Image */}
+<motion.div
+  initial={{ opacity: 0, x: -30 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.5 }}
+  className="relative w-full h-[460px] lg:h-[560px] rounded-2xl overflow-hidden shadow-xl"
+>
+  <img
+    src={profilePic}
+    alt="Prashant Mishra"
+    className="w-full h-full object-cover object-center"
+    style={{ objectPosition: "center top" }}
+  />
+
+  <div className="absolute inset-0 bg-gradient-to-tr from-primary/30 via-transparent to-accent/20" />
+</motion.div>
+
+
 
           {/* Bio */}
           <motion.div
