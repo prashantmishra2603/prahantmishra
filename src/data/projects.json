@@ -1,0 +1,92 @@
+{
+  "projects": [
+    {
+      "id": "hotel-management",
+      "title": "Hotel Management System",
+      "role": "Full Stack Developer",
+      "description": "A comprehensive MERN stack application for hotel operations management with real-time booking, room management, and guest services.",
+      "longDescription": "Built a full-featured hotel management system that streamlines operations from booking to checkout. The system handles room inventory, guest management, billing, and reporting with a modern, intuitive interface.",
+      "techStack": ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS", "JWT"],
+      "badges": ["MERN Stack", "Full Stack", "REST API"],
+      "features": [
+        "Real-time room availability and booking system",
+        "Guest check-in/check-out management",
+        "Dynamic pricing and billing module",
+        "Admin dashboard with analytics",
+        "Responsive design for all devices",
+        "Secure authentication with JWT"
+      ],
+      "images": ["/placeholder.svg", "/placeholder.svg"],
+      "githubUrl": "https://github.com/prashantmishra2603",
+      "liveUrl": "#",
+      "status": "completed",
+      "featured": true
+    },
+    {
+      "id": "bike-ev-subscription",
+      "title": "Bike/EV Subscription Platform",
+      "role": "Full Stack Developer",
+      "description": "A modern subscription-based platform for bike and electric vehicle rentals with flexible plans and seamless user experience.",
+      "longDescription": "Developed an innovative subscription platform that revolutionizes urban mobility. Users can subscribe to bikes or EVs with flexible monthly plans, track usage, manage payments, and locate nearby vehicles.",
+      "techStack": ["React", "Node.js", "Express.js", "MongoDB", "Stripe", "Google Maps API"],
+      "badges": ["Subscription Model", "Payment Integration", "Geolocation"],
+      "features": [
+        "Flexible subscription plans (daily, weekly, monthly)",
+        "Stripe payment integration",
+        "Real-time vehicle tracking with Google Maps",
+        "User dashboard for usage analytics",
+        "Admin panel for fleet management",
+        "Mobile-responsive progressive web app"
+      ],
+      "images": ["/placeholder.svg", "/placeholder.svg"],
+      "githubUrl": "https://github.com/prashantmishra2603",
+      "liveUrl": "#",
+      "status": "completed",
+      "featured": true
+    },
+    {
+      "id": "library-management",
+      "title": "Library Management System",
+      "role": "Backend Developer",
+      "description": "A robust Java-based library management system with efficient book cataloging, member management, and transaction tracking.",
+      "longDescription": "Created a comprehensive library management solution using Java and MySQL. The system handles book inventory, member registrations, issue/return tracking, fine calculation, and generates detailed reports for library administrators.",
+      "techStack": ["Java", "MySQL", "JDBC", "Swing GUI", "Maven"],
+      "badges": ["Java", "Desktop App", "Database"],
+      "features": [
+        "Book cataloging with ISBN integration",
+        "Member registration and management",
+        "Issue and return transaction tracking",
+        "Automated fine calculation system",
+        "Search functionality with filters",
+        "Report generation for administrators"
+      ],
+      "images": ["/placeholder.svg", "/placeholder.svg"],
+      "githubUrl": "https://github.com/prashantmishra2603",
+      "liveUrl": "#",
+      "status": "completed",
+      "featured": false
+    },
+    {
+      "id": "virtual-assistant",
+      "title": "Virtual Assistant",
+      "role": "Developer",
+      "description": "An AI-powered virtual assistant capable of voice commands, task automation, and intelligent responses using natural language processing.",
+      "longDescription": "Built an intelligent virtual assistant that understands natural language commands and performs various tasks. Features include voice recognition, web searches, application control, reminders, and conversational AI capabilities.",
+      "techStack": ["Python", "Speech Recognition", "pyttsx3", "OpenAI API", "Flask"],
+      "badges": ["AI/ML", "Voice Recognition", "NLP"],
+      "features": [
+        "Voice command recognition",
+        "Natural language processing",
+        "Web search integration",
+        "Application launch and control",
+        "Reminder and scheduling system",
+        "Conversational AI responses"
+      ],
+      "images": ["/placeholder.svg", "/placeholder.svg"],
+      "githubUrl": "https://github.com/prashantmishra2603",
+      "liveUrl": "#",
+      "status": "completed",
+      "featured": true
+    }
+  ]
+}
