@@ -1,6 +1,28 @@
 {
   "projects": [
     {
+  "id": "ai-saas",
+  "title": "AI SaaS Platform",
+  "role": "Full Stack Developer",
+  "description": "A premium AI SaaS web platform that provides smart AI tools like background remover, object removal, and text generation.",
+  "longDescription": "Developed a modern AI SaaS platform with multiple AI-powered utilities. The app includes authentication, responsive UI, premium features, and deployment on Vercel. It is designed to deliver real-world SaaS experience with clean UX and scalable architecture.",
+  "techStack": ["React", "Vite", "Tailwind CSS", "Node.js", "Express.js", "AI APIs"],
+  "badges": ["AI SaaS", "Full Stack", "Vercel Deployment"],
+  "features": [
+    "AI object and background remover tool",
+    "Modern SaaS-style UI with animations",
+    "Authentication and protected routes",
+    "Deployed live on Vercel",
+    "Responsive design for all devices",
+    "Scalable full-stack architecture"
+  ],
+  "images": ["/assrts/project.png"],
+  "githubUrl": "https://github.com/prashantmishra2603/ai-saas",
+  "liveUrl": "https://ai-saas-xpla.vercel.app/",
+  "status": "completed",
+  "featured": true
+}
+,{
       "id": "hotel-management",
       "title": "Hotel Management System",
       "role": "Full Stack Developer",

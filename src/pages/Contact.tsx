@@ -74,30 +74,45 @@ export default function Contact() {
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    if (!validateForm()) return;
+  if (!validateForm()) return;
 
-    setStatus('loading');
+  setStatus('loading');
 
-    // Mock submission - replace with EmailJS or your preferred service
-    try {
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+  try {
+    const response = await fetch('https://formspree.io/f/xwvodozd', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+      }),
+    });
 
-      // In production, integrate with EmailJS:
-      // await emailjs.send('service_id', 'template_id', formData, 'public_key');
-
-      setStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
-
-      // Reset success message after 5 seconds
-      setTimeout(() => setStatus('idle'), 5000);
-    } catch {
-      setStatus('error');
-      setTimeout(() => setStatus('idle'), 5000);
+    if (!response.ok) {
+      throw new Error('Formspree error');
     }
-  };
+
+    setStatus('success');
+    setFormData({
+      name: '',
+      email: '',
+      subject: '',
+      message: '',
+    });
+
+    setTimeout(() => setStatus('idle'), 5000);
+  } catch (error) {
+    setStatus('error');
+    setTimeout(() => setStatus('idle'), 5000);
+  }
+};
 
   const { personal } = resumeData;
 
