@@ -11,6 +11,7 @@ import Projects from "./pages/Projects";
 import GitHubPage from "./pages/GitHub";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
+import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -35,6 +36,7 @@ function AnimatedRoutes() {
           <Route path="/github" element={<GitHubPage />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/admin" element={<Admin />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </motion.div>

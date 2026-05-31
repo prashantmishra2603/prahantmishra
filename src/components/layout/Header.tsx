@@ -11,6 +11,7 @@ const navLinks = [
   { name: 'GitHub', path: '/github' },
   { name: 'Resume', path: '/resume' },
   { name: 'Contact', path: '/contact' },
+  { name: 'Admin', path: '/admin' },
 ];
 
 export function Header() {

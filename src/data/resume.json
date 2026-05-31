@@ -28,25 +28,25 @@
     {
       "degree": "Bachelor of Technology (B.Tech)",
       "field": "Computer Science and Engineering",
-      "institution": "Your University Name",
+      "institution": "Buddhan Institute of Technology",
       "location": "Gorakhpur, India",
-      "year": "2020 - 2024",
-      "grade": "8.5 CGPA"
+      "year": "2022 - Present",
+      "grade": "Pursuing"
     },
     {
       "degree": "Intermediate (12th)",
       "field": "Science (PCM)",
-      "institution": "Your School Name",
+      "institution": "Mahatma Gandhi Inter College",
       "location": "Gorakhpur, India",
-      "year": "2018 - 2020",
-      "grade": "85%"
+      "year": "2020 - 2022",
+      "grade": "84%"
     },
     {
       "degree": "High School (10th)",
       "field": "General",
-      "institution": "Your School Name",
+      "institution": "Navals Academy",
       "location": "Gorakhpur, India",
-      "year": "2018",
+      "year": "2020",
       "grade": "90%"
     }
   ],
@@ -76,5 +76,22 @@
       "link": "#"
     }
   ],
-  "languages": ["English (Professional)", "Hindi (Native)"]
+  "languages": ["English (Professional)", "Hindi (Native)"],
+  "experiences": [
+    {
+      "id": "isro-ursc",
+      "role": "Space Application Developer Intern",
+      "company": "ISRO (URSC)",
+      "location": "Bengaluru, Karnataka, India",
+      "duration": "Jan 2024 – Apr 2024",
+      "type": "Internship",
+      "description": "Worked at the U R Rao Satellite Centre (URSC), ISRO on internal space-application tooling. Contributed to designing and optimizing MERN stack dashboards for satellite telemetry data visualization, improved query latency by 40%, and collaborated with aerospace engineers to ensure reliable data pipelines for real-time mission monitoring.",
+      "highlights": [
+        "Built interactive satellite telemetry visualization dashboard using React.js",
+        "Optimized MongoDB queries improving data fetch speed by 40%",
+        "Collaborated with aerospace engineers on mission monitoring systems",
+        "Developed REST APIs in Node.js/Express.js for real-time data streaming"
+      ]
+    }
+  ]
 }
