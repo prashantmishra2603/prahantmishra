@@ -4,11 +4,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "http://localhost:3001/api/:path*"
+      "destination": "https://prahantmishra.onrender.com/api/:path*"
     },
     {
       "source": "/uploads/:path*",
-      "destination": "http://localhost:3001/uploads/:path*"
+      "destination": "https://prahantmishra.onrender.com/uploads/:path*"
     },
     {
       "source": "/(.*)",
